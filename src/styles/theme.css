@@ -1,0 +1,56 @@
+@theme {
+  /* Complete Luxury Yellow & Black Palette */
+  --color-black-950: #000000;
+  --color-black-900: #070708;
+  --color-black-800: #0e0e11;
+  --color-black-700: #141418;
+  --color-black-600: #1c1c22;
+  --color-black-500: #27272f;
+
+  /* Aliasing teal to deep obsidian blacks & charcoals so existing class names resolve to luxury blacks */
+  --color-teal-950: #000000;
+  --color-teal-900: #0a0a0c;
+  --color-teal-800: #111115;
+  --color-teal-700: #18181f;
+  --color-teal-600: #22222b;
+  --color-teal-500: #eab308;
+  --color-teal-400: #facc15;
+  --color-teal-100: #fef08a;
+  --color-teal-50: #18181b;
+
+  /* Radiant Yellows & Golds */
+  --color-yellow-300: #fde047;
+  --color-yellow-400: #facc15;
+  --color-yellow-500: #eab308;
+  --color-yellow-600: #ca8a04;
+  --color-yellow-700: #a16207;
+
+  --color-gold-700: #ca8a04;
+  --color-gold-600: #d97706;
+  --color-gold-500: #facc15;
+  --color-gold-400: #fde047;
+  --color-gold-300: #fef08a;
+  --color-gold-200: #fef9c3;
+  --color-gold-100: #27272a;
+
+  /* Dark Canvas Colors */
+  --color-cream-50: #0a0a0c;
+  --color-cream-100: #121216;
+  --color-cream-200: #1a1a22;
+
+  /* Light and Muted Text on Dark */
+  --color-ink-900: #ffffff;
+  --color-ink-800: #f4f4f5;
+  --color-ink-700: #e4e4e7;
+  --color-ink-500: #a1a1aa;
+  --color-ink-400: #71717a;
+  --color-ink-300: #52525b;
+
+  /* Borders & Accents */
+  --color-line: #27272a;
+  --color-wa-green: #25d366;
+  --color-wa-hover: #20ba5a;
+
+  --font-heading: "Outfit", "Poppins", sans-serif;
+  --font-body: "Plus Jakarta Sans", "Inter", sans-serif;
+}

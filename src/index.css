@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@import "./styles/theme.css";
+@import "./styles/animations.css";
+
+html {
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background-color: #0a0a0c;
+  color: #e4e4e7;
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: #ffffff;
+  letter-spacing: -0.02em;
+}
+
+::selection {
+  background-color: #facc15;
+  color: #000000;
+}
+
+/* Custom sleek Yellow & Black scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 9999px;
+  border: 2px solid #0a0a0c;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #facc15;
+}
